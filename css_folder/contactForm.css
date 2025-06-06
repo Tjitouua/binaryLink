@@ -1,0 +1,302 @@
+
+#mainDiv {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* background-color:red; */
+}
+#head {
+    width:100%;
+    height:80px;
+    background-color:#FAA0A0;
+    /* background-color:#E3735E; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logoDiv {
+    width:13%;
+    height:50%;
+    margin-left:80px;
+    /* background-color:green; */
+}
+#logo {
+    width:100%;
+    height:100%;
+}
+#nav {
+    margin-right:80px;
+    width:25%;
+    height:100%;
+    /* background-color:green; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.aTags {
+    text-decoration:none;
+    color:black;
+    font-family: Arial, sans-serif;
+}
+.aTags:hover {
+    color:#E3735E;
+}
+#contentDiv {
+    width:90%;
+    height:640px;
+    /* height:auto; */
+    /* background-color:green; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#imageDiv {
+    width:60%;
+    height:100%;
+    /* background-color:red; */
+}
+#image{
+    width:100%;
+    height:100%;
+}
+#infoDiv {
+    width:40%;
+    min-height:640px;
+    height:auto;
+    /* background-color:blue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    font-weight:500;
+    gap:35px;
+    font-size:17px;
+    /* font-weight:bold; */
+}
+#newClientTitle {
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+#inputDiv {
+    width:50%;
+    height:470px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    padding:20px;
+    filter:drop-shadow(2px 2px 2px black);
+    /* display:none; */
+}
+.inputs {
+    width:90%;
+    height:35px;
+    border-radius:10px;
+    padding-left:20px;
+    border:2px solid transparent;
+    border-bottom:2px solid grey;
+}
+.Buttons {
+    width:49%;
+    height:46px;
+    background-color:#E3735E;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+    /* font-size:17px; */
+}
+
+.Buttons:hover {
+    background-color:white;
+    border:2px solid grey;
+}
+#ButtonsDiv {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+#generalContacts {
+    width:100%;
+    height:10px;
+    /* background-color:red; */
+    border-radius:10px;
+    border:1px solid black;
+    display:flex;
+}
+#general {
+    width:50%;
+    height:100%;
+    background-color: #E3735E;
+    cursor:pointer;
+}
+#general:hover {
+    background-color:green;
+}
+#contacts {
+    width:50%;
+    height:100%;
+    cursor:pointer;
+    /* background-color: #E3735E; */
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    /* background-color: green; */
+}
+#contacts:hover {
+    background-color:green;
+}
+#generalContactsDiv {
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+#contactsDiv {
+    width:80%;
+    height:520px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    display:none;
+    /* background-color:green; */
+}
+#contactsDiv2 {
+    width:80%;
+    height:520px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    display:none;
+    /* background-color:green; */
+}
+#searchDiv {
+   width: 80%;
+   height: 35px;
+   position: relative;
+}
+
+#search {
+    width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 40px; /* make space for icon */
+  box-sizing: border-box;
+}
+
+#searchButt {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+#generalLinked {
+    width:50%;
+    height:100%;
+    background-color: transparent;
+    cursor:pointer;
+}
+#generalLinked:hover {
+    background-color: green;
+}
+#contactsLinked {
+    background-color: #E3735E;
+    width:50%;
+    height:100%;
+    cursor:pointer;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#contactsLinked:hover {
+    background-color: green;
+}
+#tableDiv {
+    width:80%;
+    height: 380px;
+    overflow-y:scroll;
+    /* background-color:pink; */
+}
+
+#tableDiv::-webkit-scrollbar {
+   width: 3px; /* Make it thinner */
+}
+#tableDiv::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+   border-radius: 10px;
+}
+#tableDiv::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+th {
+    background-color:#C0C0C0;
+    font-size:14px;
+}
+td {
+    font-size:13px;
+}
+.left-align {
+    text-align:left;
+}
+.center-align {
+    text-align:center;
+}
+#unlink {
+    color:black;
+    cursor:pointer;
+    background-color:transparent;
+    border:1px solid transparent;
+}
+#unlink:hover {
+    color:red;
+}
+#link {
+    color:black;
+    cursor:pointer;
+    background-color:transparent;
+    border:1px solid transparent;
+}
+#link:hover {
+    color:green;
+}
+#unlinkedContactsButton {
+     font-size:23px;
+     background-color:transparent;
+     border:1px solid transparent;
+     cursor:pointer;
+}
+#unlinkedContactsButton:hover {
+    color:green;
+}
+form {
+    all:unset;
+    display:contents;
+}
+

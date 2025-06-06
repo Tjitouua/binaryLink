@@ -1,0 +1,116 @@
+
+#mainDiv {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* background-color:red; */
+}
+#head {
+    width:100%;
+    height:80px;
+    background-color:#FAA0A0;
+    /* background-color:#E3735E; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logoDiv {
+    width:13%;
+    height:50%;
+    margin-left:80px;
+    /* background-color:green; */
+}
+#logo {
+    width:100%;
+    height:100%;
+}
+#nav {
+    margin-right:80px;
+    width:25%;
+    height:100%;
+    /* background-color:green; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.aTags {
+    text-decoration:none;
+    color:black;
+    font-family: Arial, sans-serif;
+}
+.aTags:hover {
+    color:#E3735E;
+}
+#contentDiv {
+    width:90%;
+    height:640px;
+    /* background-color:green; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#imageDiv {
+    width:60%;
+    height:90%;
+    /* background-color:red; */
+}
+#image{
+    width:100%;
+    height:100%;
+}
+#infoDiv {
+    width:40%;
+    height:100%;
+    /* background-color:blue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    font-weight:500;
+    gap:35px;
+    font-size:17px;
+    /* font-weight:bold; */
+}
+#newClientTitle {
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+#inputDiv {
+    width:50%;
+    height:400px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:40px;
+    padding:20px;
+    filter:drop-shadow(2px 2px 2px black);
+}
+.inputs {
+    width:90%;
+    height:35px;
+    border-radius:10px;
+    padding-left:20px;
+    border:2px solid transparent;
+    border-bottom:2px solid grey;
+}
+#addButton {
+    width:100%;
+    height:45px;
+    background-color:#E3735E;
+    border:2px solid transparent;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+#addButton:hover {
+    background-color:white;
+    border:2px solid grey;
+}

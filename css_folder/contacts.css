@@ -1,0 +1,185 @@
+#mainDiv {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* background-color:red; */
+}
+#head {
+    width:100%;
+    height:80px;
+    background-color:#FAA0A0;
+    /* background-color:#E3735E; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logoDiv {
+    width:13%;
+    height:50%;
+    margin-left:80px;
+    /* background-color:green; */
+}
+#logo {
+    width:100%;
+    height:100%;
+}
+#nav {
+    margin-right:80px;
+    width:25%;
+    height:100%;
+    /* background-color:green; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.aTags {
+    text-decoration:none;
+    color:black;
+    font-family: Arial, sans-serif;
+}
+#contentDiv {
+    width:90%;
+    height:640px;
+    /* background-color:green; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#imageDiv {
+    width:60%;
+    height:100%;
+    /* background-color:red; */
+}
+#image{
+    width:100%;
+    height:100%;
+}
+#infoDiv {
+    width:40%;
+    height:100%;
+    /* background-color:blue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    font-weight:500;
+    gap:10px;
+    font-size:17px;
+    /* font-weight:bold; */
+}
+#addClientDiv {
+    width:80%;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    font-size:25px;
+    /* background-color:blue; */
+    align-items:center;
+}
+#addClientButt {
+    width:150px;
+    height:35px;
+    background-color:#E3735E;
+    border-radius:7px;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    cursor:pointer;
+    border:2px solid transparent;
+}
+#addClientButt:hover {
+    background-color:transparent;
+    border:2px solid black;
+}
+#searchDiv {
+   width: 80%;
+   height: 35px;
+   position: relative;
+}
+
+#search {
+    width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 40px; /* make space for icon */
+  box-sizing: border-box;
+}
+
+#searchButt {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  /* display:none; */
+}
+#tableDiv {
+    width:80%;
+    height:450px;
+    /* background-color:red; */
+    overflow-y:scroll;
+    margin-top:10px;
+}
+#tableDiv::-webkit-scrollbar {
+   width: 3px; /* Make it thinner */
+}
+#tableDiv::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+   border-radius: 10px;
+}
+#tableDiv::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 20px auto; */
+    font-family: Arial, sans-serif;
+    
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+th {
+    /* background-color: #f2f2f2; */
+    background-color:#C0C0C0;
+    font-size:14px;
+}
+td {
+    font-size:13px;
+    /* background-color: #f2f2f2; */
+    /* background-color:grey; */
+}
+.left-align {
+    text-align:left;
+}
+.center-align {
+    text-align:center;
+}
+#contactForm {
+    cursor:pointer;
+}
+#noContactsDiv {
+    margin-top:30px;
+}
+form {
+    all:unset;
+    display:contents;
+}
+
